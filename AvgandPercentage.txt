@@ -1,0 +1,17 @@
+public class AvgandPercentage {
+    public static void main(String[] args) {
+ 
+       float sum = 0.0f;
+        int[] scores = {67,89,87,65,78};
+        for(int i = 0;i<scores.length;i++){
+            
+            sum = sum + scores[i];
+            
+        }
+        float a=sum/5;
+        float b=(sum/500)*100;
+        System.out.println("avg="+a);
+        System.out.println("percentage="+b);
+       
+    }
+}

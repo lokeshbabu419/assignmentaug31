@@ -1,0 +1,15 @@
+public class StringData {
+      public static void main(String[] args) {
+        String data="Java is Object oriented. Java is platform independent. Java is simple";
+        
+        String[] a = data.split("\\s");
+        int i =0;
+        String c = "Java";
+       for(String word:a){
+        
+           if(word.equals(c))
+           i++;
+       }
+       System.out.print(i);
+    }
+}
